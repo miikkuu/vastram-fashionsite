@@ -1,0 +1,393 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q { */
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+ table { */
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  font-family: 'Poppins',sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  transition: all .1s ease-in-out;
+  outline: none;
+  border: none;
+  text-decoration: none; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins',sans-serif; }
+
+p {
+  line-height: 1.4rem;
+  font-size: 1.4rem;
+  font-color: #373232; }
+
+a {
+  display: inline-block; }
+
+.flex, .header nav, .header ul, .card .title-price, .card .product-review, footer .col-4 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap; }
+
+.middel, .hero, .page-heading, .teamcard-container .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap; }
+
+.grid-2-col, .about .container {
+  display: grid;
+  gap: 2.4rem;
+  grid-template-columns: repeat(2, 1fr); }
+
+.grid-3-col, .cards-container, .teamcard-container, #our-location .container {
+  display: grid;
+  gap: 2.4rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+.grid-4-col, footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem; }
+
+.row-center, .product-filter, .pagination-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap; }
+
+.logo a {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 800; }
+  .logo a span {
+    color: #F33F3F; }
+
+section {
+  padding: 4% 11%; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700; }
+
+h1 {
+  letter-spacing: .6rem;
+  color: #fff;
+  margin-top: 1.6rem; 
+}
+
+.header {
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  background-color: #313131;
+  padding: 2.5rem 11%;
+  z-index: 1;
+  box-shadow: 4px 4px 16px rgba(255, 0, 0, 0.589);
+  transition: all 1s ease-out; }
+  .header ul {
+    list-style-type: none; }
+  .header .show-navigation {
+    display: none; }
+
+.menu-list li a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: all .3s ease; }
+
+.sticky {
+  background: #fff; }
+  .sticky .logo a {
+    color: #212529; }
+  .sticky ul a {
+    color: #212529; }
+
+.hero {
+  display: flex;
+  position: relative;
+  background-size: cover;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../media/slide_01.jpg");
+  background-position: center; 
+  background-size: cover; }
+  .hero
+   h2 {
+    text-align: center;
+    font-weight: 500;
+    color: #F33F3F;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.3);
+    
+
+
+   }
+   h1 {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    text-shadow:2px 4px 3px rgba(0,0,0,0.3);
+   }
+
+.product-filter {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid #dddddd;
+ }
+  .product-filter button {
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-color: #23405c;
+    text-transform: uppercase;
+    background: none;
+    margin-left: 3.2rem;
+    transition: .1s ease-out; }
+    .product-filter button:hover {
+      color: #F33F3F; }
+
+.cards-container {
+  gap: 2rem;
+  margin: 2rem 0; }
+
+.card {
+  font-size: 1.4rem;
+  border: 1.1rem solid #dddddd; }
+  .card .product-image {
+    width: 100% !important; }
+    .card .product-image img {
+      width: 100% !important; }
+  .card h2 {
+    font-size: 1.7rem;
+    color: #1a6692;
+    cursor: pointer; }
+    .card h2:hover {
+      color: #F33F3F; }
+  .card .price {
+    font-weight: 500; }
+  .card .title-price {
+    margin-bottom: 2rem; }
+  .card p {
+    margin-bottom: 2rem; }
+  .card .product-review i {
+    color: #F33F3F; }
+  .card .review-count a::before {
+    content: "Review("; }
+  .card .review-count a::after {
+    content: ")"; }
+
+.card-info {
+  padding: 3rem; }
+
+.review-count a {
+  color: #F33F3F;
+  font-weight: 600; }
+
+.pagination-container {
+  width: 100%;
+  margin-top: 2rem; }
+  .pagination-container li {
+    margin-left: 1.6rem;
+    border: 0.1rem solid #dddddd; }
+  .pagination-container a {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    color: #212529; }
+  .pagination-container .active {
+    background: #F33F3F;
+    color: #fff; }
+
+.about h2 {
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #dddddd; }
+.about .container {
+  gap: 2rem;
+  margin: 2rem 0; }
+
+.introductry-text h4 {
+  color: #1a6692;
+  font-weight: 600;
+  margin-bottom: 2rem; }
+.introductry-text .description {
+  margin-bottom: 2rem; }
+.introductry-text ul {
+  list-style-type: square;
+  list-style-position: inside; }
+  .introductry-text ul li {
+    margin-bottom: 1rem; }
+  .introductry-text ul a {
+    font-size: 1.4rem;
+    color: #212529; }
+
+footer {
+  width: 100%;
+  padding: 4% 11%;
+  background-color: #212529; }
+  footer .container {
+    gap: 2rem; }
+  footer .col .logo {
+    margin-bottom: 2.5rem; }
+    footer .col .logo a {
+      font-size: 2rem; }
+  footer .col p {
+    font-size: 1.5rem;
+    padding: 0 1rem 0 0;
+    color: #fff; }
+  footer h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #fff; }
+  footer ul a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem; }
+    footer ul a:hover {
+      color: #F33F3F; }
+  footer .col-4 ul {
+    justify-content: flex-start;
+    color: #fff; }
+    footer .col-4 ul li {
+      margin-right: 10rem; }
+
+.copyright-container {
+  color: #fff;
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+  border-top: 0.1rem solid #dddddd;
+  padding: 2rem 0; }
+  .copyright-container a {
+    color: #F33F3F;
+    font-weight: 600; }
+
+
+
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 55%; }
+
+  h1 {
+    font-size: 4rem; }
+
+  figure {
+    width: 100% !important; }
+    figure img {
+      width: 100% !important;
+      object-fit: cover; }
+
+  section {
+    padding: 4rem 2rem; }
+
+  .grid-2-col, .about .container {
+    grid-template-columns: 1fr; }
+
+  .grid-3-col, .cards-container, .teamcard-container, #our-location .container {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .grid-4-col, footer .container {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .header {
+    padding: 0; }
+    .header nav {
+      width: 100%;
+      height: 100%; }
+    .header .logo {
+      margin: 2rem; }
+    .header .icon {
+      margin: 2rem; }
+      .header .icon i {
+        font-size: 2rem;
+        color: #fff; }
+    .header .black-btn {
+      color: #212529; }
+    .header .show-navigation {
+      display: inline-block; }
+    .header .menu-list {
+      position: absolute;
+      top: 100%;
+      flex-flow: column wrap;
+      width: 100%;
+      height: 100vh;
+      align-items: center;
+      justify-content: flex-start;
+      display: none; }
+      .header .menu-list li {
+        text-align: center; }
+      .header .menu-list a {
+        margin: 4rem 0; }
+    .header .show-menu {
+      background: linear-gradient(to right, rgba(86, 105, 229, 0.9), #f13a51);
+      display: inline-block;
+      z-index: 1; }
+      .header .show-menu a {
+        color: #fff;
+        font-size: 1.5rem; }
+        .header .show-menu a:hover {
+          transition: all .1s ease-out;
+          color: #F33F3F; }
+
+  #our-location .introductry-text {
+    grid-column: span 2; }
+
+  footer {
+    padding: 3rem 2rem; } }
+@media screen and (max-width: 480px) {
+  .hero {
+    max-height: 60vh; }
+    .hero h1 {
+      padding: 0 3rem;
+      text-align: center; }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: .2rem; }
+
+  .grid-3-col, .cards-container, .teamcard-container, #our-location .container {
+    grid-template-columns: 1fr; }
+
+  .grid-4-col, footer .container {
+    grid-template-columns: 1fr; }
+
+  .header .logo a {
+    font-size: 2.2rem; } }
+
+
