@@ -42,11 +42,6 @@ This was a project for SprintWeb 2022...
   <img src="https://contrib.rocks/image?repo=miikkuu/vastram-fashionsite" />
 </a>
 
-<a href="https://github.com/miikkuu/vastram-fashionsite/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=the-amazing-atharva/" />
-</a>
-
-
 
 ## 🛡️ License
 This project is licensed under the [MIT License]() - see the LICENSE file for details.
