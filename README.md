@@ -41,6 +41,10 @@ This was a project for SprintWeb 2022...
 <a href="https://github.com/miikkuu/vastram-fashionsite/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=miikkuu/vastram-fashionsite" />
 </a>
+<a href="https://github.com/miikkuu/vastram-fashionsite/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=the-amazing-atharva/ />
+</a>
+
 
 
 ## 🛡️ License
