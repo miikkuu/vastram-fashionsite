@@ -35,7 +35,7 @@ This was a project for SprintWeb 2022...
 + We welcome contributions to this project in different areas such as Documentation, Web Development, Backend, etc. 
 + This project is designed to be contributor-friendly, and we are always looking for ways to make it easier for people to contribute.
 + If you are interested in contributing,
-### *Please read the [CONTRIBUTING.md]() file for instructions on how to get started.*
+### *Please read the [CONTRIBUTING.md](https://github.com/miikkuu/vastram-fashionsite/blob/main/CONTRIBUTING.md) file for instructions on how to get started.*
 
 ## 👨‍💻 Contributors 
 <a href="https://github.com/miikkuu/vastram-fashionsite/graphs/contributors">
